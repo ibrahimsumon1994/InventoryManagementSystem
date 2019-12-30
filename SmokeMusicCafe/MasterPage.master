@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SmokeMusicCafe.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+    <script src="jquery-ui-eggplant/jquery-ui.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 100%;
+            margin-left: 0px;
+        }
+        .auto-style2 {
+            height: 113px;
+            width: 3%;
+        }
+        .auto-style5 {
+            height: 113px;
+            width: 43%;
+            font-size: xx-large;
+            color: #006699;
+        }
+        .auto-style28 {
+            height: 113px;
+            width: 6%;
+        }
+        .auto-style30 {
+            height: 113px;
+            width: 3px;
+        }
+        .auto-style31 {
+            height: 321px;
+        }
+        .auto-style33 {
+            height: 44px;
+            position:fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align:center;
+        }
+        .auto-style34 {
+            text-decoration: none;
+            color: #000066;
+        }
+        .auto-style36 {
+            height: 113px;
+            width: 6px;
+        }
+        .auto-style38 {
+            height: 113px;
+            width: 9px;
+        }
+        .auto-style39 {
+            height: 113px;
+            width: 5px;
+        }
+        .auto-style41 {
+            text-decoration: none;
+        }
+        .auto-style42 {
+            color: #000066;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style28">&nbsp;</td>
+                <td class="auto-style5">
+                    Smoke Music Cafe</td>
+                <td>
+                    <asp:Button ID="btnHomePage" runat="server" class="btn btn-outline-success" style="width:150px" Text="Home" OnClick="HomePage" />
+                </td>
+                <td>
+                    <asp:Button ID="btnPurchasePage" runat="server" class="btn btn-outline-success" style="width:150px" Text="Purchase Product" OnClick="PurchasePage" />
+                </td>
+                <td>
+                    <asp:Button ID="btnProductOut" runat="server" class="btn btn-outline-success" style="width:150px" Text="Product Out" OnClick="ProductOutPage" />
+                </td>
+                <td>
+                    <asp:Button ID="btnProduct" runat="server" class="btn btn-outline-success" style="width:150px" Text="Stock Product" OnClick="ProductPage" />
+                </td>
+                <td>
+                    <asp:Button ID="btnSalesAmount" runat="server" class="btn btn-outline-success" style="width:150px" Text="Sales" OnClick="SalesPage" />
+                </td>
+                
+                <td class="auto-style30" style="color: #797979; font-weight: bold;">
+              
+                    <asp:Label ID="lblusername" runat="server" Font-Bold="True" ForeColor="#006600"></asp:Label>
+                        
+                    &nbsp;
+                   
+                    <asp:Button ID="btnLogOut" runat="server" href="Login.aspx" class="btn btn-outline-success" Text="Logout" OnClick="btnLogOut_Click" />
+                       
+                </td>
+                <td class="auto-style2">&nbsp;</td>
+            </tr>
+        </table>
+        <table class="auto-style1">
+            <tr>
+                <td style="text-align:center">
+                    <asp:Label ID="lblLogInFirst" runat="server" ForeColor="#CC0000"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style31" colspan="9" style="background-color: #FFFFFF">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style33" colspan="9" style="background-color: #006699; color: #FFFFFF">Copyright<span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 19.2px;  text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);">©</span> IBRAHIM</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

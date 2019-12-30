@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///C:/Users/USER/Desktop/Mim%20Practice/1st.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>joker</title>
+        <link rel="stylesheet" href="file:///C:/Users/USER/Desktop/Mim%20Practice/css.css" type="text/css">
+    </head>
+    
+    <body>
+        <a name="top"></a>
+        <h1>This is my first html</h1>
+        <h2>Now i am going to say about my self</h2>
+        <b>My name is <abbr title="MD BANIAMIN OVI">Baniamin</abbr></b>
+        <p>I born in comilla on 1999.I am very unluckey boy.I am very smart boy.My teen age life spent in dhaka.</p>
+        <p title="MIM">I born in comilla on 1999.I am very unluckey boy.I am very smart boy.My teen age life spent in dhaka.
+            I born in comilla on 1999.I am very unluckey boy.I am very smart boy.My teen age life spent in dhaka.
+            I born in comilla on 1999.I am very <abbr title="Ovi">unluckey</abbr> boy.I am very smart boy.My teen age life spent in dhaka.
+            I born in comilla on 1999.I am very unluckey boy.I am very smart boy.My teen age life spent in dhaka.
+            I born in comilla on 1999.I am very unluckey boy.I am very smart boy.My teen age life spent in dhaka.
+            I born in comilla on 1999.I am very unluckey boy.I am very smart boy.My teen age life spent in dhaka.
+
+        </p>
+        <p>My sertificate:</p>
+        <table border="1">
+            <thead>
+                <tr><th>name</th>
+                <th>board</th>
+                <th>year</th>
+                <th>gpa</th>
+            </tr></thead>
+            <tbody><tr>
+                <td>psc</td>
+                <td>comilla</td>
+                <td>2010</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td>jsc</td>
+                <td>dhaka</td>
+                <td>2013</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td>ssc</td>
+                <td>dhaka</td>
+                <td>2016</td>
+                <td>4.56</td>
+            </tr>
+        </tbody></table>
+        <i>MY INTERMEDIET LIFE IS TOO MUCH UNLUCKYEST</i>
+        <h3>After my hsc exam. I was very upsad for my hsc result<br>
+        And after my result.I decided that I make my self as a web devoloper</h3>
+        <p>At first my brother help me to be a web developer</p>
+        <a href="mailto:mimb206@gmail.com">my mail address</a>
+        <p><a href="file:///C:/oviiii.html" title="my site">my site</a></p>
+        <img src="file:///C:/Users/USER/Desktop/Mim%20Practice/oviii.jpg" width="400" height="400" title="Md Baniamin Ovi" alt="oviii.jpg"><br>
+        <a href="file:///C:/Users/USER/Desktop/Mim%20Practice/1st.html#top">back to top</a>
+        <h4>My favorite hobby</h4>
+        <ul>
+            <li>playing games</li>
+            <li>using facebook</li>
+            <li>and drawing</li>
+        </ul>
+        <h4>I hate</h4>
+        <ol>
+            <li>doing hard work</li>
+            <li>listening spam word</li>
+        </ol>
+
+        
+
+
+
+
+
+
+
+
+    
+
+</body></html>
