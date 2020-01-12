@@ -129,7 +129,7 @@
                 var prtContent = document.getElementById('<%= gvDailySalesReport.ClientID %>');
                 prtContent.border = 0; //set no border here
                 var header = "<div style='float:left; width:100%'><h2 style='margin:0px'>Smoke Music Cafe</h2><p>'Hakam Foundation', Top Floor<br>House-98, Road-11, Block-C<br>Banani C/A, DHAKA-1213<br>(+88) 01750 999 333, (+88) 01750 999 444<br>info@smoke-cafe.com</p></div>";
-                var heading = "<div style=' text-align: center; width:100%'><h3>Daily Sales Amount Record's</h3></div>";
+                var heading = "<div style=' text-align: center; width:100%'><h3>Daily Sales Report</h3></div>";
                 var total_amount = "<div><h3>In Words(Taka): <%=InWords %> Taka only.</h3></div>";
                 var para = "<p>Looking for your kind consideration.</p>";
                 var approve = "<p style='text-align: center'><b>Approved By</b></p><br><br>";
